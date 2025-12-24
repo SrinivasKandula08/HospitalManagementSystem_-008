@@ -22,6 +22,8 @@ import com.cdgn.service.DoctorService;
 @RestController
 @RequestMapping("/doctor")
 public class DoctorController {
+	
+	
 	@Autowired
 	private DoctorService doctorservice;
 	@PostMapping
